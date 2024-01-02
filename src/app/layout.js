@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
      
-     <body className={`bg-indigo-950 ${inter.className} text-white`}>
+     <body className={`bg-[#0d0c22] ${inter.className} text-white`}>
      
        <div className='w-[80%] mx-auto'>
        <Navbar></Navbar>
