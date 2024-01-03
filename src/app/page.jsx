@@ -9,7 +9,7 @@ const Homepage = () => {
           <p className='py-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, autem. Ad soluta obcaecati deserunt impedit quis dolores culpa, numquam atque earum tenetur officia perferendis .</p>
 
           <div>
-            <button className='py-2 px-5 bg-orange-900 rounded-sm hover:bg-slate-500'>Learn more</button>
+            <button className='py-2 px-5 bg-blue-500 rounded-sm hover:bg-slate-500'>Learn more</button>
             <button className='py-2 px-5 bg-slate-400 rounded-sm ml-4 hover:bg-slate-500'>Contact</button>
           </div>
           <Image src="/brands.png" alt='' height="100" width="500"/>

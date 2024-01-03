@@ -5,7 +5,7 @@ import React from 'react';
 const PostCard = ({img}) => {
     return (
         <div>
-            <div className="card card-compact w-[320px] h-[550px] shadow-xl">
+            <div className="card card-compact w-[320px] h-[550px] shadow-xl mb-4">
                 <figure >
                     <Image className='origin-center hover:rotate-12' src={img} alt="" height="150" width="315"/>
                     <p className='origin-center rotate-90 pt-9'>12.12.2023</p>
