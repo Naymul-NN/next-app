@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
 
+export const metadata = {
+    title: "Contact page",
+    description: "this is contact page",
+}
 const ContactPage = () => {
     return (
         <div className='min-h-screen flex items-center gap-5'>

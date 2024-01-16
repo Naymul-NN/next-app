@@ -1,8 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
 
-
-const DaynamicPage = () => {
+export const metadata = {
+    title: "Post page",
+    description: "this is post page",
+}
+const DaynamicPage = ({params}) => {
+    console.log(params);
     return (
         
             <div className=" flex gap-10 pb-10">

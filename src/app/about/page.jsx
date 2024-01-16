@@ -1,7 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
 
+export const metadata = {
+    title: "About page",
+    description: "this is about page",
+}
 const AboutPage = () => {
+
+
+
     return (
         <div className='min-h-screen flex gap-10 justify-center items-start pt-7' >
             <div className='flex-1'>
@@ -15,7 +22,7 @@ const AboutPage = () => {
                 </div>
             </div>
             <div className='flex-1'>
-                 <Image src="/about.png" alt='' width="450" height="400"/>
+                <Image src="/about.png" alt='' width="450" height="400" />
             </div>
         </div>
     );

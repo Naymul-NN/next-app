@@ -1,6 +1,11 @@
 import PostCard from '@/components/postcard/PostCard';
 import React from 'react';
 
+export const metadata = {
+    title: "Blog page",
+    description: "this is blog page",
+}
+
 const BlogPage = () => {
     return (
         <div className='min-h-screen grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mb-10'>
